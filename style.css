@@ -50,5 +50,6 @@ body {
 }
 
 #intro #name {
-  font-size: 3rem;
+  font-size: 2rem;
+  /* changed font size in newBranch */
 }
