@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+
+  font-family: "Righteous", cursive;
+  background-color: #ccc;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+
+  background-image: url("face1.jpg");
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#nav {
+  display: flex;
+  list-style-type: none;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(50, 145, 148),
+    cadetblue
+  );
+  justify-content: center;
+  margin-top: 0;
+}
+
+#nav li {
+  padding: 20px;
+  margin: 0 10px;
+  /* border: 0.25vmin solid saddlebrown; */
+}
+
+#nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+#intro {
+  position: absolute;
+  width: 30vw;
+  height: 40vh;
+  border: 0.25vmin solid saddlebrown;
+  text-align: center;
+}
+
+#intro #greet {
+  font-size: 2rem;
+}
+
+#intro #name {
+  font-size: 3rem;
+}
