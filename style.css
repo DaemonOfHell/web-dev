@@ -41,8 +41,11 @@ body {
   position: absolute;
   width: 30vw;
   height: 40vh;
-  border: 0.25vmin solid saddlebrown;
+  /* border: 0.25vmin solid saddlebrown; */
   text-align: center;
+  line-height: 1rem;
+  top: 30%;
+  left: 5%;
 }
 
 #intro #greet {
@@ -51,4 +54,28 @@ body {
 
 #intro #name {
   font-size: 3rem;
+}
+
+#ping {
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 20%;
+  /* position: absolute;
+  top: 70%;
+  left: 5%; */
+  cursor: pointer;
+}
+
+#socials {
+  width: 100%;
+  /* position: absolute;
+  top: 83%;
+  left: 6%; */
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+#socials i {
+  margin: 0 2% 0 2%;
 }
