@@ -66,6 +66,10 @@ body {
   left: 5%; */
   cursor: pointer;
 }
+#ping:hover {
+  background-color: black;
+  color: white;
+}
 
 #socials {
   width: 100%;
