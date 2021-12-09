@@ -79,3 +79,7 @@ body {
 #socials i {
   margin: 0 2% 0 2%;
 }
+
+#socials i.fa-instagram {
+  color: pink;
+}
